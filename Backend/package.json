@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "train": "node train.js",
-    "start": "node server.js"
+    "start": "node train.js && node server.js"
   },
   "author": "Hamid Ayub",
   "license": "ISC",
