@@ -1,0 +1,16 @@
+{
+  "patterns": [
+    "Which items do you have?",
+    "What kinds of items are there?",
+    "What do you sell?",
+    "Do you sell android phone",
+    "What do you do?",
+    "Do you sell Apple phones",
+    "What can you do for me?",
+    "How can you help me?"
+  ],
+  "responses": [
+    "We sell all sort of mobiles (android and IoS)",
+    "Our company sell all sort of smartphones"
+  ]
+}

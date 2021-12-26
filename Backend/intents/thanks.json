@@ -1,0 +1,15 @@
+{
+  "patterns": [
+    "Thanks",
+    "Thank you",
+    "That's helpful",
+    "Thank's a lot!",
+    "Got it",
+    "Noted",
+    "Impressive",
+    "Well done",
+    "Extraordinary",
+    "Good"
+  ],
+  "responses": ["Happy to help!", "Any time!", "My pleasure"]
+}

@@ -1,0 +1,13 @@
+{
+  "patterns": [
+    "Do you take credit cards?",
+    "Do you accept Mastercard?",
+    "Can I pay with Paypal?",
+    "Are you cash only?",
+    "How you accept payments?"
+  ],
+  "responses": [
+    "We accept VISA, Mastercard and Paypal",
+    "We accept most major credit cards, and Paypal"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "patterns": ["How much mobile cost?", "Mobile expense?", "Range of mobiles"],
+  "responses": [
+    "Cost depends on the mobile device. It ranges between 5000 to 500000",
+    "Mobile cost ranges from 5000 to 500000."
+  ]
+}

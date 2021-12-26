@@ -1,0 +1,9 @@
+{
+  "patterns": [
+    "Where is your location on map?",
+    "Where is your store?",
+    "Shop location?",
+    "What is shop Address?"
+  ],
+  "responses": ["NUST, Islamabad", "SEECS, NUST, Islamabad"]
+}

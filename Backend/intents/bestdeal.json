@@ -1,0 +1,12 @@
+{
+  "patterns": [
+    "What’s the best deal you can give me?",
+    "Can you tell me about the deals?",
+    "Special Deals?",
+    "Deals!"
+  ],
+  "responses": [
+    "We have a lot of deals. You can check our website.",
+    "We have many deals offered on weekend."
+  ]
+}

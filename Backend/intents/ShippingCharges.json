@@ -1,0 +1,9 @@
+{
+  "patterns": [
+    "What are Shipping Charges?",
+    "How much shipping cost?",
+    "Is shipping charged?",
+    "Do we have to pay for shipping?"
+  ],
+  "responses": ["Shipping cost 200 rupees per 5kg weight. Too less, isn't it?"]
+}

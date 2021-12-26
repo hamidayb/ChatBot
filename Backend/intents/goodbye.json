@@ -1,0 +1,17 @@
+{
+  "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye",
+    "bye take care",
+    "bye for now",
+    "i must go",
+    "i am going",
+    "i gotta go now"
+  ],
+  "responses": [
+    "See you later, thanks for visiting",
+    "Have a nice day",
+    "Bye! Come back again soon."
+  ]
+}
