@@ -1,0 +1,116 @@
+@import '../globals.scss';
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  height: 80vh;
+  width: 40%;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 20px;
+  background-color: $nnWhite;
+
+  .message {
+    background: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png')
+      repeat center;
+    flex: 1;
+    padding: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  border-bottom: 2px solid $lightGray;
+  .robot {
+    font-size: 20px;
+  }
+  .header__desc {
+    flex: 1;
+    padding-left: 20px;
+  }
+}
+
+.msg {
+  position: relative;
+  font-size: 16px;
+  padding: 1px 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+
+  .user {
+    position: inline-block;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 13px;
+
+    .username {
+      margin-right: 10px;
+      color: blue;
+    }
+    .name {
+      color: $gray;
+    }
+  }
+  .msg-body {
+    .timestamp {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+  }
+
+  &.sender {
+    background-color: $chatGreen;
+    margin-left: auto;
+  }
+}
+
+.footer {
+  @include flexAlignJust(center, space-between);
+  height: 62px;
+  border-top: 1px solid $lighterGray;
+  margin-left: 2px;
+  padding: 0 30px;
+  color: #003c9c;
+
+  .MuiSvgIcon-root {
+    padding: 5px;
+    color: $gray;
+    font-size: 30px;
+  }
+
+  .MuiSvgIcon-root:not(:first-child) {
+    transform: rotate(-45deg);
+    margin-right: 10px;
+  }
+
+  form {
+    flex: 1;
+    display: flex;
+
+    input {
+      flex: 1;
+      outline: none;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      color: $textColorDark;
+    }
+
+    button {
+      border: none;
+      background-color: inherit;
+      transform: rotate(45deg);
+      font-size: 20px;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}
